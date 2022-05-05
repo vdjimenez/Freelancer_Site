@@ -1,7 +1,7 @@
 :root{
-    --blancos: #ffffff;
+    --blanco: #ffffff;
     --oscuro: #212121;
-    --primario: rgb(255, 193, 7);
+    --primario: #FFC107;
     --secundario: #0097A7;
     --gris: #757575;
 }
@@ -24,5 +24,20 @@ body{
     font-size: 2rem;
 }
 
+.contenedor{
+    width: 120rem;
+    margin: 0 auto;
+}
 
+.nav-bg{
+    background-color: var(--secundario);
+}
 
+.navegacion-principal{
+    padding: 1rem;
+}
+
+.navegacion-principal > a{
+    color: var(--blanco);
+    text-decoration: none;
+}
